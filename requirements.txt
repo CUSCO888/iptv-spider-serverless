@@ -1,0 +1,3 @@
+requests
+aiohttp
+# lxml # Optional if needed for parsing
