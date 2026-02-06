@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "cctv.m3u",
+    "name": "央视精选",
+    "include": ["CCTV", "央视"],
+    "exclude": ["购物", "测试"]
+  },
+  {
+    "filename": "satellite.m3u",
+    "name": "卫视频道",
+    "include": ["卫视"],
+    "exclude": ["购物", "CCTV", "央视"]
+  },
+  {
+    "filename": "all.m3u",
+    "name": "全部频道",
+    "include": [],
+    "exclude": ["购物", "测试", "法轮"]
+  }
+]

@@ -1,25 +1,17 @@
 import os
 import re
 import time
-import datetime
+import json
 import logging
 import asyncio
 import aiohttp
 import requests
 
 # Configuration
-# Keywords to search for (Region, ISP)
 KEYWORDS = os.getenv("KEYWORDS", "北京,联通").split(",")
-# Filter keywords (Whitelist/Blacklist)
-FILTER_INCLUDE = os.getenv("FILTER_INCLUDE", "").split(",") if os.getenv("FILTER_INCLUDE") else []
-FILTER_EXCLUDE = os.getenv("FILTER_EXCLUDE", "").split(",") if os.getenv("FILTER_EXCLUDE") else []
-
-# Max sources per keyword
-MAX_SOURCES = int(os.getenv("MAX_SOURCES", "10"))
-# Timeout for validation
 TIMEOUT = int(os.getenv("TIMEOUT", "5"))
 
-# Logging setup
+# Logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -27,38 +19,16 @@ class Spider:
     def __init__(self):
         self.results = []
 
-    async def search_fofa(self, keyword):
-        """
-        Search using FOFA API if key is provided.
-        """
-        fofa_email = os.getenv("FOFA_EMAIL")
-        fofa_key = os.getenv("FOFA_KEY")
-        if not (fofa_email and fofa_key):
-            logger.info("FOFA credentials not found, skipping FOFA search.")
-            return []
-            
-        logger.info(f"Searching FOFA for: {keyword}")
-        # Implementation of FOFA search logic (simplified)
-        # In a real scenario, you'd call the API: https://fofa.info/api/v1/search/all
-        # query = f'header="HTTP/1.1 200 OK" && body="udpxy" && region="{keyword}"'
-        # For now, return empty to avoid breaking without keys
-        return []
-
     async def search_tonkiang(self, keyword):
-        """
-        Search using Tonkiang (FoodieGuide) - public scraping.
-        Note: This is often unstable due to anti-scraping.
-        """
+        """Search using Tonkiang (FoodieGuide)"""
         logger.info(f"Searching Tonkiang for: {keyword}")
         search_url = f"http://tonkiang.us/hoteliptv.php?s={keyword}"
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(search_url, timeout=10) as response:
                     text = await response.text()
-                    # Extract IPs/Links using Regex (Simplified)
-                    # Pattern: http://1.2.3.4:1234/udp/239.1.1.1:1234
                     links = re.findall(r'http://[\d\.]+:[\d]+', text)
-                    return list(set(links)) # Deduplicate
+                    return list(set(links))
         except Exception as e:
             logger.error(f"Tonkiang search failed: {e}")
             return []
@@ -66,15 +36,8 @@ class Spider:
     async def run(self):
         all_candidates = []
         for kw in KEYWORDS:
-            # 1. FOFA
-            fofa_res = await self.search_fofa(kw)
-            all_candidates.extend(fofa_res)
-            # 2. Tonkiang
-            tk_res = await self.search_tonkiang(kw)
-            all_candidates.extend(tk_res)
-            
-            # 3. Add more sources here (e.g., subscribing to other repos)
-            
+            res = await self.search_tonkiang(kw)
+            all_candidates.extend(res)
         return list(set(all_candidates))
 
 class Validator:
@@ -82,10 +45,8 @@ class Validator:
         try:
             start = time.time()
             target = url
-            # If it doesn't look like a file, assume it's a udpxy gateway
             if not url.endswith(('.m3u', '.m3u8', '.txt')):
                  target = f"{url}/stat"
-
             async with session.get(target, timeout=TIMEOUT) as resp:
                 if resp.status == 200:
                     latency = (time.time() - start) * 1000
@@ -101,96 +62,148 @@ class Validator:
             tasks = [self.check_url(session, url) for url in candidates]
             results = await asyncio.gather(*tasks)
             valid_sources = [r for r in results if r is not None]
-        
-        # Sort by latency
         valid_sources.sort(key=lambda x: x[1])
         return [v[0] for v in valid_sources]
 
-class Aggregator:
-    def generate_playlist(self, sources):
-        content = "#EXTM3U\n"
-        
-        # Helper to check filters
-        def is_allowed(name):
-            if FILTER_EXCLUDE:
-                for kw in FILTER_EXCLUDE:
-                    if kw and kw in name:
-                        return False
-            if FILTER_INCLUDE:
-                for kw in FILTER_INCLUDE:
-                    if kw and kw in name:
-                        return True
-                return False # If whitelist exists but no match, block
-            return True
+class ChannelParser:
+    """Parses M3U/Text sources into a unified list of channel objects"""
+    def __init__(self):
+        self.channels = [] # [{'name': 'CCTV1', 'url': '...', 'group': '...'}, ...]
 
-        for i, source in enumerate(sources):
-            if source.endswith(('.m3u', '.m3u8', '.txt')):
-                try:
-                    resp = requests.get(source, timeout=10)
-                    if resp.status_code == 200:
-                        lines = resp.text.splitlines()
-                        # Simple M3U parser
-                        pending_inf = None
-                        for line in lines:
-                            line = line.strip()
-                            if not line: continue
-                            
-                            if line.startswith("#EXTINF"):
-                                pending_inf = line
-                            elif not line.startswith("#"):
-                                # This is a URL line
-                                channel_name = ""
-                                if pending_inf:
-                                    # Try to extract name from EXTINF:-1,Channel Name
-                                    # or group-title="XX",Channel Name
-                                    parts = pending_inf.split(",")
-                                    if len(parts) > 1:
-                                        channel_name = parts[-1]
-                                
-                                if is_allowed(channel_name) or is_allowed(pending_inf or ""):
-                                    if pending_inf:
-                                        content += pending_inf + "\n"
-                                    content += line + "\n"
-                                pending_inf = None
-                        continue
-                except Exception as e:
-                    logger.error(f"Error processing source {source}: {e}")
+    def parse_source(self, url):
+        new_channels = []
+        try:
+            # For simplicity using requests here, could be async too
+            resp = requests.get(url, timeout=10)
+            if resp.status_code != 200: return []
             
-            # Fallback for raw URLs (assume allowed if no metadata to check, or check URL itself)
-            if is_allowed(source):
-                content += f"#EXTINF:-1 group-title=\"Live\", Source {i+1}\n{source}\n"
-        return content
+            lines = resp.text.splitlines()
+            current_meta = {}
+            
+            for line in lines:
+                line = line.strip()
+                if not line: continue
+                
+                if line.startswith("#EXTINF"):
+                    # Parse EXTINF:-1 group-title="XX",Name
+                    meta = {'group': 'Unknown', 'name': 'Unknown'}
+                    # Extract group
+                    g_match = re.search(r'group-title="([^"]+)"', line)
+                    if g_match: meta['group'] = g_match.group(1)
+                    # Extract name (last part after comma)
+                    name_match = line.rsplit(',', 1)
+                    if len(name_match) > 1: meta['name'] = name_match[1].strip()
+                    current_meta = meta
+                elif not line.startswith("#"):
+                    # It's a URL
+                    if current_meta:
+                        new_channels.append({
+                            'name': current_meta.get('name', 'Unknown'),
+                            'group': current_meta.get('group', 'Unknown'),
+                            'url': line
+                        })
+                        current_meta = {}
+                    else:
+                        # Raw URL without metadata
+                        new_channels.append({
+                            'name': 'Unknown', 
+                            'group': 'Unknown', 
+                            'url': line
+                        })
+            return new_channels
+        except Exception as e:
+            logger.error(f"Failed to parse source {url}: {e}")
+            return []
+
+    async def fetch_all(self, sources):
+        # We'll use a loop here for simplicity or asyncio if needed. 
+        # Given parsing is CPU bound partly, straightforward loop is fine for serverless.
+        logger.info("Parsing channels from sources...")
+        all_channels = []
+        for source in sources:
+            if source.endswith(('.m3u', '.m3u8', '.txt')):
+                chans = self.parse_source(source)
+                all_channels.extend(chans)
+            else:
+                # It's a gateway root, maybe add manually if needed, or skip
+                # For this version, we focus on M3U aggregation
+                pass
+        
+        logger.info(f"Total channels parsed: {len(all_channels)}")
+        return all_channels
+
+class Exporter:
+    def __init__(self, config_path="config.json"):
+        self.config = []
+        if os.path.exists(config_path):
+            with open(config_path, "r") as f:
+                self.config = json.load(f)
+        else:
+            # Default fallback
+            self.config = [{
+                "filename": "iptv.m3u",
+                "include": [],
+                "exclude": []
+            }]
+
+    def is_match(self, name, include, exclude):
+        if exclude:
+            for x in exclude:
+                if x and x in name: return False
+        
+        if include:
+            matched = False
+            for i in include:
+                if i and i in name: matched = True
+            return matched
+        
+        return True
+
+    def export(self, channels, output_dir="output"):
+        os.makedirs(output_dir, exist_ok=True)
+        
+        for cfg in self.config:
+            filename = cfg.get("filename", "iptv.m3u")
+            include = cfg.get("include", [])
+            exclude = cfg.get("exclude", [])
+            
+            filtered = [c for c in channels if self.is_match(c['name'], include, exclude)]
+            
+            # Write M3U
+            with open(f"{output_dir}/{filename}", "w") as f:
+                f.write("#EXTM3U\n")
+                for c in filtered:
+                    f.write(f"#EXTINF:-1 group-title=\"{c['group']}\",{c['name']}\n{c['url']}\n")
+            
+            # Write TXT
+            txt_name = filename.replace(".m3u", ".txt")
+            with open(f"{output_dir}/{txt_name}", "w") as f:
+                for c in filtered:
+                    f.write(f"{c['name']},{c['url']}\n")
+            
+            logger.info(f"Generated {filename} with {len(filtered)} channels.")
 
 async def main():
     spider = Spider()
     validator = Validator()
-    aggregator = Aggregator()
+    parser = ChannelParser()
+    exporter = Exporter()
 
-    # 1. Spider
+    # 1. Collect Sources
     candidates = await spider.run()
-    logger.info(f"Found {len(candidates)} candidates.")
-
-    if not candidates:
-        logger.warning("No candidates found. Check keywords or search sources.")
-        # Fallback: Read from a local 'subs.txt' if exists
-        if os.path.exists("subs.txt"):
-            with open("subs.txt", "r") as f:
-                candidates = [line.strip() for line in f if line.strip().startswith("http")]
-
-    # 2. Validate
+    if os.path.exists("subs.txt"):
+        with open("subs.txt", "r") as f:
+            candidates.extend([line.strip() for line in f if line.strip().startswith("http")])
+    candidates = list(set(candidates))
+    
+    # 2. Validate Sources
     valid_sources = await validator.validate(candidates)
-    logger.info(f"Valid sources: {len(valid_sources)}")
-
-    # 3. Save
-    m3u_content = aggregator.generate_playlist(valid_sources)
     
-    os.makedirs("output", exist_ok=True)
-    with open("output/iptv.m3u", "w") as f:
-        f.write(m3u_content)
+    # 3. Parse All Channels
+    all_channels = await parser.fetch_all(valid_sources)
     
-    with open("output/iptv.txt", "w") as f:
-        for source in valid_sources:
-            f.write(f"{source}\n")
+    # 4. Export based on Config
+    exporter.export(all_channels)
 
 if __name__ == "__main__":
     asyncio.run(main())
