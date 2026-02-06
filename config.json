@@ -18,6 +18,18 @@
     "exclude": []
   },
   {
+    "filename": "hayatetv.m3u",
+    "name": "HayateTV",
+    "include": ["日本地上", "日本BS", "日本CS", "jp-primehome"],
+    "exclude": []
+  },
+  {
+    "filename": "wangtv.m3u",
+    "name": "WangTV (台湾)",
+    "include": ["台湾", "新聞台", "東森", "華視", "中天", "寰宇", "4GTV", "litv"],
+    "exclude": []
+  },
+  {
     "filename": "all.m3u",
     "name": "全部频道",
     "include": [],
