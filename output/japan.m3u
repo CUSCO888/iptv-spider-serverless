@@ -1,0 +1,151 @@
+#EXTM3U
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレHD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG
+https://nl.utako.moe/NHK_G/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE
+https://nl.utako.moe/NHK_E/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレ
+https://nl.utako.moe/Nippon_TV/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS
+https://nl.utako.moe/TBS/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",関西テレビ
+https://nl.utako.moe/kansaitv/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",NHK BS
+https://nl.utako.moe/NHK_BS/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",BS日テレ
+https://nl.utako.moe/bsntv/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",BS TBS
+https://nl.utako.moe/bstbs/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",NHK BS4K
+https://nl.utako.moe/bsp4k/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS",日テレ G+
+https://nl.utako.moe/ntvgplus/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS",TBS Channel 1
+https://nl.utako.moe/tbsch1/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS",TBS Channel 2
+https://nl.utako.moe/tbsch2/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS映画",日本映画専門
+https://nl.utako.moe/nihoneiga/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本ショッピング",QVC Japan
+http://cdn-live1.qvc.jp/iPhone/800/800.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレHD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG
+https://nl.utako.moe/NHK_G/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE
+https://nl.utako.moe/NHK_E/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレ
+https://nl.utako.moe/Nippon_TV/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS
+https://nl.utako.moe/TBS/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",関西テレビ
+https://nl.utako.moe/kansaitv/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",NHK BS
+https://nl.utako.moe/NHK_BS/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",BS日テレ
+https://nl.utako.moe/bsntv/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",BS TBS
+https://nl.utako.moe/bstbs/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",NHK BS4K
+https://nl.utako.moe/bsp4k/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS",日テレ G+
+https://nl.utako.moe/ntvgplus/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS",TBS Channel 1
+https://nl.utako.moe/tbsch1/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS",TBS Channel 2
+https://nl.utako.moe/tbsch2/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS映画",日本映画専門
+https://nl.utako.moe/nihoneiga/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本ショッピング",QVC Japan
+http://cdn-live1.qvc.jp/iPhone/800/800.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレHD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG
+https://nl.utako.moe/NHK_G/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE
+https://nl.utako.moe/NHK_E/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレ
+https://nl.utako.moe/Nippon_TV/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS
+https://nl.utako.moe/TBS/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",関西テレビ
+https://nl.utako.moe/kansaitv/index.m3u8
+#EXTINF:-1 group-title="🍍台湾4GTV",靖天日本台
+http://220.135.64.124:5050/4gtv-4gtv047/index.m3u8?proxy=true
+#EXTINF:-1 group-title="🍍台湾4GTV",靖天日本台
+http://220.135.64.124:5050/li-4gtv-4gtv047/index.m3u8?proxy=true
+#EXTINF:-1 group-title="🍍台湾4GTV",纬来日本
+rtmp://f13h.mine.nu/sat/tv771
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレHD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG
+https://nl.utako.moe/NHK_G/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE
+https://nl.utako.moe/NHK_E/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレ
+https://nl.utako.moe/Nippon_TV/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS
+https://nl.utako.moe/TBS/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",関西テレビ
+https://nl.utako.moe/kansaitv/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",NHK BS
+https://nl.utako.moe/NHK_BS/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",BS日テレ
+https://nl.utako.moe/bsntv/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",BS TBS
+https://nl.utako.moe/bstbs/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本BS",NHK BS4K
+https://nl.utako.moe/bsp4k/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS",日テレ G+
+https://nl.utako.moe/ntvgplus/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS",TBS Channel 1
+https://nl.utako.moe/tbsch1/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS",TBS Channel 2
+https://nl.utako.moe/tbsch2/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本CS映画",日本映画専門
+https://nl.utako.moe/nihoneiga/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本Eng",NHK World
+https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレHD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG
+https://nl.utako.moe/NHK_G/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE
+https://nl.utako.moe/NHK_E/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレ
+https://nl.utako.moe/Nippon_TV/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS
+https://nl.utako.moe/TBS/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",関西テレビ
+https://nl.utako.moe/kansaitv/index.m3u8
