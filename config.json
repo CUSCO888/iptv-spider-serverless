@@ -12,6 +12,12 @@
     "exclude": ["购物", "CCTV", "央视"]
   },
   {
+    "filename": "japan.m3u",
+    "name": "日本频道",
+    "include": ["NHK", "TBS", "Fuji", "Asahi", "Tokyo", "Japan", "日本", "日テレ", "関西"],
+    "exclude": []
+  },
+  {
     "filename": "all.m3u",
     "name": "全部频道",
     "include": [],
