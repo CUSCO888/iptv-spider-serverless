@@ -77,11 +77,11 @@ class Validator:
     async def check_url(self, session, url):
         try:
             start = time.time()
-            # Try a common endpoint or just the root
-            # For UDPXY, we might check /status
-            # For HLS, we need a .m3u8 link. 
-            # This is a heuristic check.
-            target = f"{url}/stat" # Common for udpxy
+            target = url
+            # If it doesn't look like a file, assume it's a udpxy gateway
+            if not url.endswith(('.m3u', '.m3u8', '.txt')):
+                 target = f"{url}/stat"
+
             async with session.get(target, timeout=TIMEOUT) as resp:
                 if resp.status == 200:
                     latency = (time.time() - start) * 1000
@@ -104,13 +104,23 @@ class Validator:
 
 class Aggregator:
     def generate_playlist(self, sources):
-        # Generate basic M3U
         content = "#EXTM3U\n"
         for i, source in enumerate(sources):
-            # We need actual channel paths. 
-            # A real spider would scan the /udpxy/status page to find channels.
-            # Here we act as a 'Base URL' finder or assume a template.
-            # For demonstration, we just list the found gateways.
+            if source.endswith(('.m3u', '.m3u8', '.txt')):
+                try:
+                    # Simple fetch and merge
+                    resp = requests.get(source, timeout=10)
+                    if resp.status_code == 200:
+                        # If it's m3u, just append the lines (excluding header if repeated)
+                        lines = resp.text.splitlines()
+                        for line in lines:
+                            if not line.startswith("#EXTM3U"):
+                                content += line + "\n"
+                        continue
+                except:
+                    pass
+            
+            # Fallback for gateways or failed fetches
             content += f"#EXTINF:-1 group-title=\"Live\", Source {i+1}\n{source}\n"
         return content
 
