@@ -26,7 +26,9 @@ jobs:
 
       - name: Run Spider
         env:
-          KEYWORDS: "北京,联通" # Change this or use Secrets
+          KEYWORDS: "北京,联通"
+          # FILTER_INCLUDE: "CCTV,卫视" # Optional: Only keep channels with these words
+          # FILTER_EXCLUDE: "购物,甚至" # Optional: Remove channels with these words
           FOFA_EMAIL: ${{ secrets.FOFA_EMAIL }} # Optional
           FOFA_KEY: ${{ secrets.FOFA_KEY }}     # Optional
         run: python main.py

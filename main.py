@@ -10,6 +10,10 @@ import requests
 # Configuration
 # Keywords to search for (Region, ISP)
 KEYWORDS = os.getenv("KEYWORDS", "北京,联通").split(",")
+# Filter keywords (Whitelist/Blacklist)
+FILTER_INCLUDE = os.getenv("FILTER_INCLUDE", "").split(",") if os.getenv("FILTER_INCLUDE") else []
+FILTER_EXCLUDE = os.getenv("FILTER_EXCLUDE", "").split(",") if os.getenv("FILTER_EXCLUDE") else []
+
 # Max sources per keyword
 MAX_SOURCES = int(os.getenv("MAX_SOURCES", "10"))
 # Timeout for validation
@@ -105,23 +109,56 @@ class Validator:
 class Aggregator:
     def generate_playlist(self, sources):
         content = "#EXTM3U\n"
+        
+        # Helper to check filters
+        def is_allowed(name):
+            if FILTER_EXCLUDE:
+                for kw in FILTER_EXCLUDE:
+                    if kw and kw in name:
+                        return False
+            if FILTER_INCLUDE:
+                for kw in FILTER_INCLUDE:
+                    if kw and kw in name:
+                        return True
+                return False # If whitelist exists but no match, block
+            return True
+
         for i, source in enumerate(sources):
             if source.endswith(('.m3u', '.m3u8', '.txt')):
                 try:
-                    # Simple fetch and merge
                     resp = requests.get(source, timeout=10)
                     if resp.status_code == 200:
-                        # If it's m3u, just append the lines (excluding header if repeated)
                         lines = resp.text.splitlines()
+                        # Simple M3U parser
+                        pending_inf = None
                         for line in lines:
-                            if not line.startswith("#EXTM3U"):
-                                content += line + "\n"
+                            line = line.strip()
+                            if not line: continue
+                            
+                            if line.startswith("#EXTINF"):
+                                pending_inf = line
+                            elif not line.startswith("#"):
+                                # This is a URL line
+                                channel_name = ""
+                                if pending_inf:
+                                    # Try to extract name from EXTINF:-1,Channel Name
+                                    # or group-title="XX",Channel Name
+                                    parts = pending_inf.split(",")
+                                    if len(parts) > 1:
+                                        channel_name = parts[-1]
+                                
+                                if is_allowed(channel_name) or is_allowed(pending_inf or ""):
+                                    if pending_inf:
+                                        content += pending_inf + "\n"
+                                    content += line + "\n"
+                                pending_inf = None
                         continue
-                except:
-                    pass
+                except Exception as e:
+                    logger.error(f"Error processing source {source}: {e}")
             
-            # Fallback for gateways or failed fetches
-            content += f"#EXTINF:-1 group-title=\"Live\", Source {i+1}\n{source}\n"
+            # Fallback for raw URLs (assume allowed if no metadata to check, or check URL itself)
+            if is_allowed(source):
+                content += f"#EXTINF:-1 group-title=\"Live\", Source {i+1}\n{source}\n"
         return content
 
 async def main():
