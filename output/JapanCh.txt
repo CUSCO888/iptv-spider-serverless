@@ -16,6 +16,27 @@ TBS Channel 1,https://nl.utako.moe/tbsch1/index.m3u8
 TBS Channel 2,https://nl.utako.moe/tbsch2/index.m3u8
 日本映画専門,https://nl.utako.moe/nihoneiga/index.m3u8
 QVC Japan,http://cdn-live1.qvc.jp/iPhone/800/800.m3u8
+靖天日本台,http://220.135.64.124:5050/4gtv-4gtv047/index.m3u8?proxy=true
+靖天日本台,http://220.135.64.124:5050/li-4gtv-4gtv047/index.m3u8?proxy=true
+纬来日本,rtmp://f13h.mine.nu/sat/tv771
+NHKG HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+NHKE HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
+日テレHD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
+TBS HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
+NHKG,https://nl.utako.moe/NHK_G/index.m3u8
+NHKE,https://nl.utako.moe/NHK_E/index.m3u8
+日テレ,https://nl.utako.moe/Nippon_TV/index.m3u8
+TBS,https://nl.utako.moe/TBS/index.m3u8
+関西テレビ,https://nl.utako.moe/kansaitv/index.m3u8
+NHK BS,https://nl.utako.moe/NHK_BS/index.m3u8
+BS日テレ,https://nl.utako.moe/bsntv/index.m3u8
+BS TBS,https://nl.utako.moe/bstbs/index.m3u8
+NHK BS4K,https://nl.utako.moe/bsp4k/index.m3u8
+日テレ G+,https://nl.utako.moe/ntvgplus/index.m3u8
+TBS Channel 1,https://nl.utako.moe/tbsch1/index.m3u8
+TBS Channel 2,https://nl.utako.moe/tbsch2/index.m3u8
+日本映画専門,https://nl.utako.moe/nihoneiga/index.m3u8
+NHK World,https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 NHKG HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
 NHKE HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
 日テレHD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
@@ -43,27 +64,6 @@ TBS Channel 1,https://nl.utako.moe/tbsch1/index.m3u8
 TBS Channel 2,https://nl.utako.moe/tbsch2/index.m3u8
 日本映画専門,https://nl.utako.moe/nihoneiga/index.m3u8
 QVC Japan,http://cdn-live1.qvc.jp/iPhone/800/800.m3u8
-靖天日本台,http://220.135.64.124:5050/4gtv-4gtv047/index.m3u8?proxy=true
-靖天日本台,http://220.135.64.124:5050/li-4gtv-4gtv047/index.m3u8?proxy=true
-纬来日本,rtmp://f13h.mine.nu/sat/tv771
-NHKG HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
-NHKE HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
-日テレHD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
-TBS HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
-NHKG,https://nl.utako.moe/NHK_G/index.m3u8
-NHKE,https://nl.utako.moe/NHK_E/index.m3u8
-日テレ,https://nl.utako.moe/Nippon_TV/index.m3u8
-TBS,https://nl.utako.moe/TBS/index.m3u8
-関西テレビ,https://nl.utako.moe/kansaitv/index.m3u8
-NHK BS,https://nl.utako.moe/NHK_BS/index.m3u8
-BS日テレ,https://nl.utako.moe/bsntv/index.m3u8
-BS TBS,https://nl.utako.moe/bstbs/index.m3u8
-NHK BS4K,https://nl.utako.moe/bsp4k/index.m3u8
-日テレ G+,https://nl.utako.moe/ntvgplus/index.m3u8
-TBS Channel 1,https://nl.utako.moe/tbsch1/index.m3u8
-TBS Channel 2,https://nl.utako.moe/tbsch2/index.m3u8
-日本映画専門,https://nl.utako.moe/nihoneiga/index.m3u8
-NHK World,https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 NHKG HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
 NHKE HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
 日テレHD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
