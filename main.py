@@ -68,7 +68,7 @@ class Validator:
 class ChannelParser:
     """Parses M3U/Text sources into a unified list of channel objects"""
     def __init__(self):
-        self.channels = [] # [{'name': 'CCTV1', 'url': '...', 'group': '...'}, ...]
+        self.channels = [] # [{'name': 'CCTV1', 'url': '...', 'group': '...', 'params': '...'}, ...]
 
     def parse_source(self, url):
         new_channels = []
@@ -85,14 +85,22 @@ class ChannelParser:
                 if not line: continue
                 
                 if line.startswith("#EXTINF"):
-                    # Parse EXTINF:-1 group-title="XX",Name
-                    meta = {'group': 'Unknown', 'name': 'Unknown'}
-                    # Extract group
+                    # Parse EXTINF:-1 params,Name
+                    meta = {'group': 'Unknown', 'name': 'Unknown', 'params': ''}
+                    
+                    # Split into params and name
+                    parts = line.rsplit(',', 1)
+                    if len(parts) > 1:
+                        meta['name'] = parts[1].strip()
+                        header_part = parts[0].strip()
+                        # Remove #EXTINF:xxx tag to get raw params
+                        # This preserves tvg-id, tvg-logo, etc.
+                        meta['params'] = re.sub(r'^#EXTINF:[-0-9\.]+\s*', '', header_part)
+                    
+                    # Extract group for filtering convenience
                     g_match = re.search(r'group-title="([^"]+)"', line)
                     if g_match: meta['group'] = g_match.group(1)
-                    # Extract name (last part after comma)
-                    name_match = line.rsplit(',', 1)
-                    if len(name_match) > 1: meta['name'] = name_match[1].strip()
+                    
                     current_meta = meta
                 elif not line.startswith("#"):
                     # It's a URL
@@ -100,6 +108,7 @@ class ChannelParser:
                         new_channels.append({
                             'name': current_meta.get('name', 'Unknown'),
                             'group': current_meta.get('group', 'Unknown'),
+                            'params': current_meta.get('params', ''),
                             'url': line
                         })
                         current_meta = {}
@@ -108,6 +117,7 @@ class ChannelParser:
                         new_channels.append({
                             'name': 'Unknown', 
                             'group': 'Unknown', 
+                            'params': '',
                             'url': line
                         })
             return new_channels
@@ -146,15 +156,18 @@ class Exporter:
                 "exclude": []
             }]
 
-    def is_match(self, name, include, exclude):
+    def is_match(self, channel, include, exclude):
+        # Search in name and group
+        text = f"{channel['name']} {channel['group']}"
+        
         if exclude:
             for x in exclude:
-                if x and x in name: return False
+                if x and x in text: return False
         
         if include:
             matched = False
             for i in include:
-                if i and i in name: matched = True
+                if i and i in text: matched = True
             return matched
         
         return True
@@ -167,13 +180,18 @@ class Exporter:
             include = cfg.get("include", [])
             exclude = cfg.get("exclude", [])
             
-            filtered = [c for c in channels if self.is_match(c['name'], include, exclude)]
+            filtered = [c for c in channels if self.is_match(c, include, exclude)]
             
             # Write M3U
             with open(f"{output_dir}/{filename}", "w") as f:
-                f.write("#EXTM3U\n")
+                # Always add the EPG URL to the header for convenience
+                f.write('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/CUSCO888/epg/master/guide.xml"\n')
                 for c in filtered:
-                    f.write(f"#EXTINF:-1 group-title=\"{c['group']}\",{c['name']}\n{c['url']}\n")
+                    # Reconstruct line with original params if available
+                    params = c.get('params', '')
+                    if not params:
+                        params = f'group-title="{c["group"]}"'
+                    f.write(f"#EXTINF:-1 {params},{c['name']}\n{c['url']}\n")
             
             # Write TXT
             txt_name = filename.replace(".m3u", ".txt")
