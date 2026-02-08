@@ -93,6 +93,80 @@ MBS毎日放送,http://nl.utako.moe/mbs/index.m3u8
 ABC朝日放送,http://nl.utako.moe/abc/index.m3u8
 KBS京都,http://nl.utako.moe/kbs/index.m3u8
 サンテレビ,http://nl.utako.moe/suntv/index.m3u8
+<<<<<<< Updated upstream
+=======
+NHK BS,https://nl.utako.moe/NHK_BS/index.m3u8
+BS日テレ,https://nl.utako.moe/bsntv/index.m3u8
+BS朝日,https://nl.utako.moe/bsasahi/index.m3u8
+BS TBS,https://nl.utako.moe/bstbs/index.m3u8
+BSテレ東,https://nl.utako.moe/bstvtokyo/index.m3u8
+BSフジ,https://nl.utako.moe/bsfuji/index.m3u8
+BS 10 Premium,https://nl.utako.moe/bs10_star/index.m3u8
+BS11,https://nl.utako.moe/BS11/index.m3u8
+NHK BS4K,https://nl.utako.moe/bsp4k/index.m3u8
+日テレ G+,https://nl.utako.moe/ntvgplus/index.m3u8
+TBS Channel 1,https://nl.utako.moe/tbsch1/index.m3u8
+TBS Channel 2,https://nl.utako.moe/tbsch2/index.m3u8
+テレ朝 Ch1,https://nl.utako.moe/ex_ch1/index.m3u8
+テレ朝 Ch2,https://nl.utako.moe/ex_ch2/index.m3u8
+フジテレビONE,https://nl.utako.moe/fuji_one/index.m3u8
+フジテレビTWO,https://nl.utako.moe/fuji_two/index.m3u8
+フジテレビNEXT,https://nl.utako.moe/fuji_next/index.m3u8
+JSport 1,https://nl.utako.moe/js1/index.m3u8
+JSport 2,https://nl.utako.moe/js2/index.m3u8
+JSport 3,https://nl.utako.moe/js3/index.m3u8
+JSport 4,https://nl.utako.moe/js4/index.m3u8
+Gaora Sports,https://nl.utako.moe/gaora/index.m3u8
+スポーツライフ＋,https://nl.utako.moe/sport_live_plus/index.m3u8
+ゴルフネットワーク,https://nl.utako.moe/golf_network/index.m3u8
+スカイA,https://nl.utako.moe/skya/index.m3u8
+FightingTVサムライ,https://nl.utako.moe/fighting_tv/index.m3u8
+Green Ch,https://nl.utako.moe/green/index.m3u8
+エンタメテレ,https://nl.utako.moe/entermei_tele/index.m3u8
+旅Tabi Ch,https://nl.utako.moe/tabi/index.m3u8
+The Cinema,https://nl.utako.moe/the_cinema/index.m3u8
+ディズニーチャンネル,https://nl.utako.moe/disneychan/index.m3u8
+ファミリー劇場,https://nl.utako.moe/familygeki/index.m3u8
+Mondo TV,https://nl.utako.moe/mondo/index.m3u8
+ホームドラマチャンネル,https://nl.utako.moe/homedrama/index.m3u8
+チャンネル银河,https://nl.utako.moe/gingach/index.m3u8
+Neco Ch,https://nl.utako.moe/neco/index.m3u8
+Dlife,https://nl.utako.moe/dlife/index.m3u8
+東映ch,https://nl.utako.moe/toei/index.m3u8
+日本映画専門,https://nl.utako.moe/nihoneiga/index.m3u8
+Animax,https://nl.utako.moe/Animax/index.m3u8
+AT-X,https://nl.utako.moe/AT-X/index.m3u8
+Cartoon Network,https://nl.utako.moe/cartoon_network/index.m3u8
+キッズステーション,https://nl.utako.moe/kids_station/index.m3u8
+Space Shower TV,https://nl.utako.moe/spaceshower/index.m3u8
+MTV,https://nl.utako.moe/mtv/index.m3u8
+歌谣ポップス,https://nl.utako.moe/kayopops/index.m3u8
+Music ON TV,https://nl.utako.moe/musicon/index.m3u8
+NHKG HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+NHKE HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
+日テレHD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
+TBS HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
+フジテレビHD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd05
+テレビ朝日HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd06
+テレビ東京HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd07
+TOKYO MX1 HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd08
+NHKG,https://nl.utako.moe/NHK_G/index.m3u8
+NHKE,https://nl.utako.moe/NHK_E/index.m3u8
+日テレ,https://nl.utako.moe/Nippon_TV/index.m3u8
+TBS,https://nl.utako.moe/TBS/index.m3u8
+フジテレビ,https://nl.utako.moe/Fuji_TV/index.m3u8
+テレビ朝日,https://nl.utako.moe/TV_Asahi/index.m3u8
+テレビ東京,https://nl.utako.moe/TV_Tokyo/index.m3u8
+TOKYO MX1,https://nl.utako.moe/Tokyo_MX1/index.m3u8
+TOKYO MX2,https://nl.utako.moe/Tokyo_MX2/index.m3u8
+テレビ大阪,https://nl.utako.moe/tvo/index.m3u8
+関西テレビ,https://nl.utako.moe/kansaitv/index.m3u8
+読売テレビ,https://nl.utako.moe/ytv/index.m3u8
+MBS毎日放送,http://nl.utako.moe/mbs/index.m3u8
+ABC朝日放送,http://nl.utako.moe/abc/index.m3u8
+KBS京都,http://nl.utako.moe/kbs/index.m3u8
+サンテレビ,http://nl.utako.moe/suntv/index.m3u8
+>>>>>>> Stashed changes
 NHKG HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
 NHKE HD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
 日テレHD,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
@@ -188,6 +262,7 @@ MBS毎日放送,http://nl.utako.moe/mbs/index.m3u8
 ABC朝日放送,http://nl.utako.moe/abc/index.m3u8
 KBS京都,http://nl.utako.moe/kbs/index.m3u8
 サンテレビ,http://nl.utako.moe/suntv/index.m3u8
+<<<<<<< Updated upstream
 NHK BS,https://nl.utako.moe/NHK_BS/index.m3u8
 BS日テレ,https://nl.utako.moe/bsntv/index.m3u8
 BS朝日,https://nl.utako.moe/bsasahi/index.m3u8
@@ -259,3 +334,5 @@ MBS毎日放送,http://nl.utako.moe/mbs/index.m3u8
 ABC朝日放送,http://nl.utako.moe/abc/index.m3u8
 KBS京都,http://nl.utako.moe/kbs/index.m3u8
 サンテレビ,http://nl.utako.moe/suntv/index.m3u8
+=======
+>>>>>>> Stashed changes

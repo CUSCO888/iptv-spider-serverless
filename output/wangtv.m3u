@@ -485,6 +485,7 @@ http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8
 https://5ddce30eb4b55.streamlock.net/wxtv/wxtvnow.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="唯心电视" tvg-logo="https://cdn.jsdelivr.net/gh/CUSCO888/IPTV@main/tv/JLogo/唯心电视.png" group-title="🍍台湾4GTV",唯心电视
 http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u
+<<<<<<< Updated upstream
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="央视频道",CCTV-1综合
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.fanmingming.cn/tv/CCTV2.png" group-title="央视频道",CCTV-2财经
@@ -2231,3 +2232,5 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02
 https://tbs5.mov3.co/hls/tbs.m3u8
 #EXTINF:-1 tvg-id="gakinotsukai",tvg-name="gakinotsukai" tvg-logo="https://cdn.jsdelivr.net/gh/CUSCO888/IPTV@main/tv/JLogo/gakinotsukai.png" group-title="🇯🇵日本Eng",ガキの使い
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
+=======
+>>>>>>> Stashed changes
