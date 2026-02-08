@@ -329,6 +329,296 @@ https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakute
 http://nl.utako.moe/pigoo/index.m3u8
 #EXTINF:-1 group-title="RAKUTEN",パラダイス
 http://nl.utako.moe/v_paradise/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレHD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
+#EXTINF:-1 group-title="🇯🇵日本地上",フジテレビHD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd05
+#EXTINF:-1 group-title="🇯🇵日本地上",テレビ朝日HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd06
+#EXTINF:-1 group-title="🇯🇵日本地上",テレビ東京HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd07
+#EXTINF:-1 group-title="🇯🇵日本地上",TOKYO MX1 HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd08
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG
+https://nl.utako.moe/NHK_G/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE
+https://nl.utako.moe/NHK_E/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレ
+https://nl.utako.moe/Nippon_TV/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS
+https://nl.utako.moe/TBS/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",フジテレビ
+https://nl.utako.moe/Fuji_TV/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",テレビ朝日
+https://nl.utako.moe/TV_Asahi/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",テレビ東京
+https://nl.utako.moe/TV_Tokyo/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",TOKYO MX1
+https://nl.utako.moe/Tokyo_MX1/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",TOKYO MX2
+https://nl.utako.moe/Tokyo_MX2/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",テレビ大阪
+https://nl.utako.moe/tvo/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",関西テレビ
+https://nl.utako.moe/kansaitv/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",読売テレビ
+https://nl.utako.moe/ytv/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",MBS毎日放送
+http://nl.utako.moe/mbs/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",ABC朝日放送
+http://nl.utako.moe/abc/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",KBS京都
+http://nl.utako.moe/kbs/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",サンテレビ
+http://nl.utako.moe/suntv/index.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",ABN TV (720p)
+https://vod2.abn.co.kr/IPHONE/abn.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",Arirang Radio (720p)
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",BBS Buddhist Broadcasting (1080p)
+http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",CGNTV South Korea (1080p)
+https://du35ivadp6cxj.cloudfront.net/out/v1/81781d23cbbf490990b2aa9181d4ce19/CGNWebLiveKR.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",CJ OnStyle (540p)
+https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EWTN Africa Asia (720p)
+https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EWTN Asia-Pacific (720p) [Not 24/7]
+https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",GCN24 Korean (720p)
+http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",GoodTV (1080p)
+http://mobliestream.c3tv.com:1935/live/goodtv.sdp/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",Gugbang TV (1080p) [Not 24/7]
+http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",Home & Shopping (720p)
+https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",KBS 1TV [Not 24/7]
+http://mytv.dothome.co.kr/ch/public/1.php
+#EXTINF:-1 group-title="🇰🇷韩国",KBS 2TV [Not 24/7]
+http://mytv.dothome.co.kr/ch/public/3.php
+#EXTINF:-1 group-title="🇰🇷韩国",KBS Drama (480p)
+http://mytv.dothome.co.kr/ch/catv/2.php
+#EXTINF:-1 group-title="🇰🇷韩国",KBS Life (480p)
+http://mytv.dothome.co.kr/ch/catv/5.php
+#EXTINF:-1 group-title="🇰🇷韩国",KBS LiveCam DokDo (540p)
+http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",KCTV 광주 CH05 (720p) [Not 24/7]
+http://119.77.96.184:1935/chn05/chn05/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",Lotte OneTV (720p)
+https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",MBC Andong (안동 MBC) (360p) [Not 24/7]
+http://andong.webcasting.co.kr/live/mbc/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",MBC Chuncheon (춘천 MBC) (480p) [Not 24/7]
+https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",MBC Jeju (제주 MBC) (352p) [Not 24/7]
+https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",MBC Mokpo (목포 MBC) (720p) [Not 24/7]
+http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
+https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",NHTV (720p)
+http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",SBS CJB (540p) [Not 24/7]
+http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",SBS JTV (406p) [Not 24/7]
+http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",SBS KNN (1080p) [Not 24/7]
+undefined
+#EXTINF:-1 group-title="🇰🇷韩国",Shopping NT (720p)
+https://live.shoppingntmall.com/live/10011.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",tvchosun2
+http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",tvchosun
+http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",BBS
+http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1216149699.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBS1
+http://ebsonairios.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBS2
+http://ebsonairios.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBSe
+http://ebsonairios.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBS1
+http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBS2
+http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBS1
+http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBS1
+http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/groundwavetablet500k.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBSi
+http://ebsonairios.ebs.co.kr/plus1tablet500k/tablet500k/plus1tablet500k.index.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBS+2
+http://ebsonairios.ebs.co.kr/plus2tablet500k/tablet500k/plus2tablet500k.index.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBSe
+http://ebsonairios.ebs.co.kr/plus3tablet500k/tablet500k/plus3tablet500k.index.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",KCTV
+http://119.77.96.184:1935/chn05/chn05/chunklist_w1306745753.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",tvN1
+https://d2zyqoz1zsj2mq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i9yul1lyegl6e-ssai-prd/6d07fe2a_003a_4879_acfc_44e3c3c10f03/hls/playlist.m3u8?
+#EXTINF:-1 group-title="🇰🇷韩国",tvN2
+https://d21dxaer0ypwk1.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6m2cy2rylsvo-ssai-prd/54ac8e25_eb5a_4f10_ba20_ffb254f0a16c/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.service_id=KRBC32000261J
+#EXTINF:-1 group-title="🇰🇷韩国",tvN3
+https://d25mdvvpht3395.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p8ea370fl7r4f-ssai-prd/82f296fd_2916_45b7_b799_525a4226957a/hls/playlist.m3u8?
+#EXTINF:-1 group-title="🇰🇷韩国",tvN5
+https://d2zyqoz1zsj2mq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i9yul1lyegl6e-ssai-prd/6d07fe2a_003a_4879_acfc_44e3c3c10f03/hls/playlist.m3u8?tvN Movies
+#EXTINF:-1 group-title="🇰🇷韩国",KBS世界
+https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",Arirang
+http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",Arirang
+http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBS 2
+http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8?
+#EXTINF:-1 group-title="🇰🇷韩国",JTV
+http://61.85.197.53:1935/jtv_live/myStream/chunklist_w1542137203.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",KCTV
+http://119.77.96.184:1935/chn05/chn05/chunklist_w644291506.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",C
+http://112.175.51.214:1935/live/myStream/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",TV
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
+#EXTINF:-1 group-title="🇰🇷韩国",TV1
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
+#EXTINF:-1 group-title="🇰🇷韩国",TV3
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=630
+#EXTINF:-1 group-title="🇰🇷韩国",TV4
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=644
+#EXTINF:-1 group-title="🇰🇷韩国",14
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=14
+#EXTINF:-1 group-title="🇰🇷韩国",EBS少儿
+http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/chunklist_w1965791004.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",韩国EBS1
+http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8?zshijd
+#EXTINF:-1 group-title="🇰🇷韩国",韩国EBS2
+http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8?zshijd
+#EXTINF:-1 group-title="🇰🇷韩国",Arirang
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",KCTV
+http://119.77.96.184:1935/chn05/chn05/chunklist.m3u
+#EXTINF:-1 group-title="🇰🇷韩国",声优广播
+http://www.uniqueradio.jp/agplayerf/hls/Active.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",KCTV
+http://119.77.96.184:1935/chn05/chn05/chunklist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",CJB
+http://1.222.207.80:1935/live/cjbtv/chunklist_w1357270949.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",Arirang
+http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch/master.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",BBS佛教广播
+http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",Arirang
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",HBTV
+http://hoabinhtvlive.746b3ddb.cdnviet.com/hoabinhtv/chunklist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",ANTV
+http://antvlive.ab5c6921.cdnviet.com/antv/chunklist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",Arirang Radio
+http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",BTN
+http://btn.nowcdn.co.kr/btn/btnlive01/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",CPBC
+http://onair1.cpbc.co.kr:1935/tv/smil:live.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",EBS-KIDS
+http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",GCN教会
+http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_high/chunklist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",MBN
+http://mytv.dothome.co.kr/ch/catv/54.php
+#EXTINF:-1 group-title="🇰🇷韩国",NewKID2
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=878
+#EXTINF:-1 group-title="🇰🇷韩国",NewKID4
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=888
+#EXTINF:-1 group-title="🇰🇷韩国",NewKID4
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=872
+#EXTINF:-1 group-title="🇰🇷韩国",韩国音乐
+http://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
+#EXTINF:-1 group-title="🇰🇷韩国",RNA
+http://5ddfc48289114.streamlock.net/CHsoom/LIVE/playist.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",WionNews
+https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",Newsmax
+http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",CNN
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",BBC_AMERICA
+https://fl1.moveonjoy.com/BBC_AMERICA/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",BBC_WORLD
+https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",BLOOMBERG
+https://fl1.moveonjoy.com/BLOOMBERG/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",C-SPAN
+https://fl1.moveonjoy.com/C-SPAN/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",MLB_NETWORK
+https://fl1.moveonjoy.com/MLB_NETWORK/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",INVESTIGATION_DISCOVERY
+https://fl1.moveonjoy.com/INVESTIGATION_DISCOVERY/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",CBS_SPORTS
+https://fl1.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",NFL_NETWORK
+https://fl1.moveonjoy.com/NFL_NETWORK/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",ABC_EAST
+https://fl1.moveonjoy.com/ABC_EAST/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",ACC_NETWORK
+https://fl1.moveonjoy.com/ACC_NETWORK/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",Animal_Planet
+https://fl1.moveonjoy.com/Animal_Planet/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",AMC_NETWORK
+https://fl1.moveonjoy.com/AMC_NETWORK/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",American_Heroes
+https://fl1.moveonjoy.com/American_Heroes_Channel/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",BRAVO
+https://fl1.moveonjoy.com/BRAVO/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",TNT
+https://fl1.moveonjoy.com/TNT/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",BEIN_SPORTS
+https://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",BET_EAST
+https://fl1.moveonjoy.com/BET_EAST/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",BET_HER
+https://fl1.moveonjoy.com/BET_HER/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",BET_SOUL
+https://fl1.moveonjoy.com/BET_SOUL/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",BET_Jams
+https://fl1.moveonjoy.com/BET_Jams/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",CBSEAST
+https://fl1.moveonjoy.com/CBSEAST/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",CMT
+https://fl1.moveonjoy.com/CMT/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",Comedy_Central
+https://fl1.moveonjoy.com/Comedy_Central/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",COOKING
+https://fl1.moveonjoy.com/COOKING_CHANNEL/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",DISCOVERY_FAMILY_CHANNEL
+https://fl1.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",E_ENTERTAINMENT_TELEVISION
+https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",FOOD_NETWORK
+https://fl1.moveonjoy.com/FOOD_NETWORK/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",ION_TV
+https://fl1.moveonjoy.com/ION_TV/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",LIFETIME_MOVIE_NETWORK
+https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",ME_TV
+https://fl1.moveonjoy.com/ME_TV/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",MOTOR_TREND
+https://fl1.moveonjoy.com/MOTOR_TREND/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",MSNBC
+https://fl1.moveonjoy.com/MSNBC/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",NEWS_NATION
+https://fl1.moveonjoy.com/NEWS_NATION/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",wwe
+https://fl3.moveonjoy.com/WWE/index.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",movie sphere
+https://samsunguk-moviesphereuk-samsung-uk-s7xaa.amagi.tv/ts-eu-w1-n2/playlist/samsunguk-moviesphereuk-samsung-uk/playlist.m3u8
+#EXTINF:-1 group-title="🇺🇸USA",AMCEast
+https://bcovlive-a.akamaihd.net/ba853de442c140b7b3dc020001597c0a/us-east-1/6245817279001/playlist.m3u8
 #EXTINF:-1 group-title="🍍台湾4GTV",中天新聞台
 http://220.135.64.124:5050/4gtv-4gtv009/index.m3u8?proxy=true
 #EXTINF:-1 group-title="🍍台湾4GTV",寰宇新聞台
@@ -3769,296 +4059,6 @@ https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakute
 http://nl.utako.moe/pigoo/index.m3u8
 #EXTINF:-1 group-title="RAKUTEN",パラダイス
 http://nl.utako.moe/v_paradise/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",NHKG HD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
-#EXTINF:-1 group-title="🇯🇵日本地上",NHKE HD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
-#EXTINF:-1 group-title="🇯🇵日本地上",日テレHD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
-#EXTINF:-1 group-title="🇯🇵日本地上",TBS HD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
-#EXTINF:-1 group-title="🇯🇵日本地上",フジテレビHD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd05
-#EXTINF:-1 group-title="🇯🇵日本地上",テレビ朝日HD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd06
-#EXTINF:-1 group-title="🇯🇵日本地上",テレビ東京HD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd07
-#EXTINF:-1 group-title="🇯🇵日本地上",TOKYO MX1 HD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd08
-#EXTINF:-1 group-title="🇯🇵日本地上",NHKG
-https://nl.utako.moe/NHK_G/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",NHKE
-https://nl.utako.moe/NHK_E/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",日テレ
-https://nl.utako.moe/Nippon_TV/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",TBS
-https://nl.utako.moe/TBS/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",フジテレビ
-https://nl.utako.moe/Fuji_TV/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",テレビ朝日
-https://nl.utako.moe/TV_Asahi/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",テレビ東京
-https://nl.utako.moe/TV_Tokyo/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",TOKYO MX1
-https://nl.utako.moe/Tokyo_MX1/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",TOKYO MX2
-https://nl.utako.moe/Tokyo_MX2/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",テレビ大阪
-https://nl.utako.moe/tvo/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",関西テレビ
-https://nl.utako.moe/kansaitv/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",読売テレビ
-https://nl.utako.moe/ytv/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",MBS毎日放送
-http://nl.utako.moe/mbs/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",ABC朝日放送
-http://nl.utako.moe/abc/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",KBS京都
-http://nl.utako.moe/kbs/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",サンテレビ
-http://nl.utako.moe/suntv/index.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",ABN TV (720p)
-https://vod2.abn.co.kr/IPHONE/abn.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",Arirang Radio (720p)
-http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",BBS Buddhist Broadcasting (1080p)
-http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",CGNTV South Korea (1080p)
-https://du35ivadp6cxj.cloudfront.net/out/v1/81781d23cbbf490990b2aa9181d4ce19/CGNWebLiveKR.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",CJ OnStyle (540p)
-https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EWTN Africa Asia (720p)
-https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EWTN Asia-Pacific (720p) [Not 24/7]
-https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",GCN24 Korean (720p)
-http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",GoodTV (1080p)
-http://mobliestream.c3tv.com:1935/live/goodtv.sdp/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",Gugbang TV (1080p) [Not 24/7]
-http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",Home & Shopping (720p)
-https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",KBS 1TV [Not 24/7]
-http://mytv.dothome.co.kr/ch/public/1.php
-#EXTINF:-1 group-title="🇰🇷韩国",KBS 2TV [Not 24/7]
-http://mytv.dothome.co.kr/ch/public/3.php
-#EXTINF:-1 group-title="🇰🇷韩国",KBS Drama (480p)
-http://mytv.dothome.co.kr/ch/catv/2.php
-#EXTINF:-1 group-title="🇰🇷韩国",KBS Life (480p)
-http://mytv.dothome.co.kr/ch/catv/5.php
-#EXTINF:-1 group-title="🇰🇷韩国",KBS LiveCam DokDo (540p)
-http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",KCTV 광주 CH05 (720p) [Not 24/7]
-http://119.77.96.184:1935/chn05/chn05/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",Lotte OneTV (720p)
-https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",MBC Andong (안동 MBC) (360p) [Not 24/7]
-http://andong.webcasting.co.kr/live/mbc/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",MBC Chuncheon (춘천 MBC) (480p) [Not 24/7]
-https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",MBC Jeju (제주 MBC) (352p) [Not 24/7]
-https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",MBC Mokpo (목포 MBC) (720p) [Not 24/7]
-http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
-https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",NHTV (720p)
-http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",SBS CJB (540p) [Not 24/7]
-http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",SBS JTV (406p) [Not 24/7]
-http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",SBS KNN (1080p) [Not 24/7]
-undefined
-#EXTINF:-1 group-title="🇰🇷韩国",Shopping NT (720p)
-https://live.shoppingntmall.com/live/10011.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",tvchosun2
-http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",tvchosun
-http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",BBS
-http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1216149699.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBS1
-http://ebsonairios.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBS2
-http://ebsonairios.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBSe
-http://ebsonairios.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBS1
-http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBS2
-http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBS1
-http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBS1
-http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/groundwavetablet500k.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBSi
-http://ebsonairios.ebs.co.kr/plus1tablet500k/tablet500k/plus1tablet500k.index.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBS+2
-http://ebsonairios.ebs.co.kr/plus2tablet500k/tablet500k/plus2tablet500k.index.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBSe
-http://ebsonairios.ebs.co.kr/plus3tablet500k/tablet500k/plus3tablet500k.index.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",KCTV
-http://119.77.96.184:1935/chn05/chn05/chunklist_w1306745753.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",tvN1
-https://d2zyqoz1zsj2mq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i9yul1lyegl6e-ssai-prd/6d07fe2a_003a_4879_acfc_44e3c3c10f03/hls/playlist.m3u8?
-#EXTINF:-1 group-title="🇰🇷韩国",tvN2
-https://d21dxaer0ypwk1.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6m2cy2rylsvo-ssai-prd/54ac8e25_eb5a_4f10_ba20_ffb254f0a16c/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.service_id=KRBC32000261J
-#EXTINF:-1 group-title="🇰🇷韩国",tvN3
-https://d25mdvvpht3395.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p8ea370fl7r4f-ssai-prd/82f296fd_2916_45b7_b799_525a4226957a/hls/playlist.m3u8?
-#EXTINF:-1 group-title="🇰🇷韩国",tvN5
-https://d2zyqoz1zsj2mq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i9yul1lyegl6e-ssai-prd/6d07fe2a_003a_4879_acfc_44e3c3c10f03/hls/playlist.m3u8?tvN Movies
-#EXTINF:-1 group-title="🇰🇷韩国",KBS世界
-https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",Arirang
-http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",Arirang
-http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBS 2
-http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8?
-#EXTINF:-1 group-title="🇰🇷韩国",JTV
-http://61.85.197.53:1935/jtv_live/myStream/chunklist_w1542137203.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",KCTV
-http://119.77.96.184:1935/chn05/chn05/chunklist_w644291506.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",C
-http://112.175.51.214:1935/live/myStream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",TV
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
-#EXTINF:-1 group-title="🇰🇷韩国",TV1
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
-#EXTINF:-1 group-title="🇰🇷韩国",TV3
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=630
-#EXTINF:-1 group-title="🇰🇷韩国",TV4
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=644
-#EXTINF:-1 group-title="🇰🇷韩国",14
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=14
-#EXTINF:-1 group-title="🇰🇷韩国",EBS少儿
-http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/chunklist_w1965791004.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",韩国EBS1
-http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8?zshijd
-#EXTINF:-1 group-title="🇰🇷韩国",韩国EBS2
-http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8?zshijd
-#EXTINF:-1 group-title="🇰🇷韩国",Arirang
-http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",KCTV
-http://119.77.96.184:1935/chn05/chn05/chunklist.m3u
-#EXTINF:-1 group-title="🇰🇷韩国",声优广播
-http://www.uniqueradio.jp/agplayerf/hls/Active.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",KCTV
-http://119.77.96.184:1935/chn05/chn05/chunklist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",CJB
-http://1.222.207.80:1935/live/cjbtv/chunklist_w1357270949.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",Arirang
-http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch/master.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",BBS佛教广播
-http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",Arirang
-https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",HBTV
-http://hoabinhtvlive.746b3ddb.cdnviet.com/hoabinhtv/chunklist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",ANTV
-http://antvlive.ab5c6921.cdnviet.com/antv/chunklist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",Arirang Radio
-http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",BTN
-http://btn.nowcdn.co.kr/btn/btnlive01/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",CPBC
-http://onair1.cpbc.co.kr:1935/tv/smil:live.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",EBS-KIDS
-http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",GCN教会
-http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_high/chunklist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",MBN
-http://mytv.dothome.co.kr/ch/catv/54.php
-#EXTINF:-1 group-title="🇰🇷韩国",NewKID2
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=878
-#EXTINF:-1 group-title="🇰🇷韩国",NewKID4
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=888
-#EXTINF:-1 group-title="🇰🇷韩国",NewKID4
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=872
-#EXTINF:-1 group-title="🇰🇷韩国",韩国音乐
-http://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
-#EXTINF:-1 group-title="🇰🇷韩国",RNA
-http://5ddfc48289114.streamlock.net/CHsoom/LIVE/playist.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",WionNews
-https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",Newsmax
-http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",CNN
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",BBC_AMERICA
-https://fl1.moveonjoy.com/BBC_AMERICA/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",BBC_WORLD
-https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",BLOOMBERG
-https://fl1.moveonjoy.com/BLOOMBERG/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",C-SPAN
-https://fl1.moveonjoy.com/C-SPAN/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",MLB_NETWORK
-https://fl1.moveonjoy.com/MLB_NETWORK/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",INVESTIGATION_DISCOVERY
-https://fl1.moveonjoy.com/INVESTIGATION_DISCOVERY/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",CBS_SPORTS
-https://fl1.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",NFL_NETWORK
-https://fl1.moveonjoy.com/NFL_NETWORK/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",ABC_EAST
-https://fl1.moveonjoy.com/ABC_EAST/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",ACC_NETWORK
-https://fl1.moveonjoy.com/ACC_NETWORK/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",Animal_Planet
-https://fl1.moveonjoy.com/Animal_Planet/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",AMC_NETWORK
-https://fl1.moveonjoy.com/AMC_NETWORK/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",American_Heroes
-https://fl1.moveonjoy.com/American_Heroes_Channel/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",BRAVO
-https://fl1.moveonjoy.com/BRAVO/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",TNT
-https://fl1.moveonjoy.com/TNT/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",BEIN_SPORTS
-https://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",BET_EAST
-https://fl1.moveonjoy.com/BET_EAST/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",BET_HER
-https://fl1.moveonjoy.com/BET_HER/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",BET_SOUL
-https://fl1.moveonjoy.com/BET_SOUL/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",BET_Jams
-https://fl1.moveonjoy.com/BET_Jams/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",CBSEAST
-https://fl1.moveonjoy.com/CBSEAST/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",CMT
-https://fl1.moveonjoy.com/CMT/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",Comedy_Central
-https://fl1.moveonjoy.com/Comedy_Central/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",COOKING
-https://fl1.moveonjoy.com/COOKING_CHANNEL/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",DISCOVERY_FAMILY_CHANNEL
-https://fl1.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",E_ENTERTAINMENT_TELEVISION
-https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",FOOD_NETWORK
-https://fl1.moveonjoy.com/FOOD_NETWORK/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",ION_TV
-https://fl1.moveonjoy.com/ION_TV/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",LIFETIME_MOVIE_NETWORK
-https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",ME_TV
-https://fl1.moveonjoy.com/ME_TV/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",MOTOR_TREND
-https://fl1.moveonjoy.com/MOTOR_TREND/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",MSNBC
-https://fl1.moveonjoy.com/MSNBC/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",NEWS_NATION
-https://fl1.moveonjoy.com/NEWS_NATION/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",wwe
-https://fl3.moveonjoy.com/WWE/index.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",movie sphere
-https://samsunguk-moviesphereuk-samsung-uk-s7xaa.amagi.tv/ts-eu-w1-n2/playlist/samsunguk-moviesphereuk-samsung-uk/playlist.m3u8
-#EXTINF:-1 group-title="🇺🇸USA",AMCEast
-https://bcovlive-a.akamaihd.net/ba853de442c140b7b3dc020001597c0a/us-east-1/6245817279001/playlist.m3u8
 #EXTINF:-1 group-title="Unknown",Unknown
 公告,#genre#
 #EXTINF:-1 group-title="Unknown",Unknown

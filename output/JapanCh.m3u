@@ -35,6 +35,24 @@ https://nl.utako.moe/tbsch2/index.m3u8
 https://nl.utako.moe/nihoneiga/index.m3u8
 #EXTINF:-1 group-title="🇯🇵日本ショッピング",QVC Japan
 http://cdn-live1.qvc.jp/iPhone/800/800.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレHD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKG
+https://nl.utako.moe/NHK_G/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",NHKE
+https://nl.utako.moe/NHK_E/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",日テレ
+https://nl.utako.moe/Nippon_TV/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",TBS
+https://nl.utako.moe/TBS/index.m3u8
+#EXTINF:-1 group-title="🇯🇵日本地上",関西テレビ
+https://nl.utako.moe/kansaitv/index.m3u8
 #EXTINF:-1 group-title="🍍台湾4GTV",靖天日本台
 http://220.135.64.124:5050/4gtv-4gtv047/index.m3u8?proxy=true
 #EXTINF:-1 group-title="🍍台湾4GTV",靖天日本台
@@ -131,21 +149,3 @@ https://nl.utako.moe/tbsch2/index.m3u8
 https://nl.utako.moe/nihoneiga/index.m3u8
 #EXTINF:-1 group-title="🇯🇵日本ショッピング",QVC Japan
 http://cdn-live1.qvc.jp/iPhone/800/800.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",NHKG HD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
-#EXTINF:-1 group-title="🇯🇵日本地上",NHKE HD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
-#EXTINF:-1 group-title="🇯🇵日本地上",日テレHD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
-#EXTINF:-1 group-title="🇯🇵日本地上",TBS HD
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
-#EXTINF:-1 group-title="🇯🇵日本地上",NHKG
-https://nl.utako.moe/NHK_G/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",NHKE
-https://nl.utako.moe/NHK_E/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",日テレ
-https://nl.utako.moe/Nippon_TV/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",TBS
-https://nl.utako.moe/TBS/index.m3u8
-#EXTINF:-1 group-title="🇯🇵日本地上",関西テレビ
-https://nl.utako.moe/kansaitv/index.m3u8
