@@ -131,12 +131,55 @@ class ChannelParser:
         logger.info("Parsing channels from sources...")
         all_channels = []
         for source in sources:
-            if source.endswith(('.m3u', '.m3u8', '.txt')):
-                chans = self.parse_source(source)
-                all_channels.extend(chans)
+            if source.startswith(('http://', 'https://')):
+                # Remote URL
+                if source.endswith(('.m3u', '.m3u8', '.txt')):
+                    chans = self.parse_source(source)
+                    all_channels.extend(chans)
+            elif os.path.exists(source):
+                # Local file
+                logger.info(f"Reading local source: {source}")
+                try:
+                    with open(source, 'r', encoding='utf-8') as f:
+                        # Mocking a response object structure for parse_source logic reuse
+                        # or better, refactor parse_source to take text content
+                        content = f.read()
+                        
+                        # Inline parsing logic for local files to avoid requests dep issues
+                        lines = content.splitlines()
+                        current_meta = {}
+                        for line in lines:
+                            line = line.strip()
+                            if not line: continue
+                            if line.startswith("#EXTINF"):
+                                meta = {'group': 'Unknown', 'name': 'Unknown', 'params': ''}
+                                parts = line.rsplit(',', 1)
+                                if len(parts) > 1:
+                                    meta['name'] = parts[1].strip()
+                                    header_part = parts[0].strip()
+                                    meta['params'] = re.sub(r'^#EXTINF:[-0-9\.]+\s*', '', header_part)
+                                g_match = re.search(r'group-title="([^"]+)"', line)
+                                if g_match: meta['group'] = g_match.group(1)
+                                current_meta = meta
+                            elif not line.startswith("#"):
+                                if current_meta:
+                                    all_channels.append({
+                                        'name': current_meta.get('name', 'Unknown'),
+                                        'group': current_meta.get('group', 'Unknown'),
+                                        'params': current_meta.get('params', ''),
+                                        'url': line
+                                    })
+                                    current_meta = {}
+                                else:
+                                    all_channels.append({
+                                        'name': 'Unknown', 
+                                        'group': 'Unknown', 
+                                        'params': '',
+                                        'url': line
+                                    })
+                except Exception as e:
+                    logger.error(f"Failed to read local file {source}: {e}")
             else:
-                # It's a gateway root, maybe add manually if needed, or skip
-                # For this version, we focus on M3U aggregation
                 pass
         
         logger.info(f"Total channels parsed: {len(all_channels)}")
@@ -211,7 +254,11 @@ async def main():
     candidates = await spider.run()
     if os.path.exists("subs.txt"):
         with open("subs.txt", "r") as f:
-            candidates.extend([line.strip() for line in f if line.strip().startswith("http")])
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#"): continue
+                # Support both remote URLs and local file paths
+                candidates.append(line)
     candidates = list(set(candidates))
     
     # 2. Validate Sources

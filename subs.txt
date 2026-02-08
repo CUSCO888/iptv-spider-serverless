@@ -1,7 +1,1 @@
-# Add static subscription URLs here (m3u or txt links)
-# The spider will combine these with search results
-https://raw.githubusercontent.com/yuanzl77/IPTV/main/live.txt
-https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
-https://raw.githubusercontent.com/CUSCO888/IPTV/main/tv/m3u/JapanCh.m3u
-https://raw.githubusercontent.com/CUSCO888/IPTV/main/tv/m3u/hayatetv.m3u
-https://raw.githubusercontent.com/CUSCO888/IPTV/main/tv/m3u/wangtv.m3u
+manual.m3u
